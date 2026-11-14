@@ -1,0 +1,63 @@
+<html>
+    <head>
+<h1>View Teams:</h1>
+<script src="Backend.py"></script>
+<script src="Frontend.js"></script>
+<link rel="stylesheet" href="Styling.css">
+    </head>
+    <body>
+        
+            <button id = DisplayTeamButton onclick = "ShowWCTeamButtonDisplay('WCTeams')">Western Conference</button>
+            <br>
+            <div class = "TeamDisplay">
+            <div id = "WCTeams">
+                <button id = "MavsButton" onclick = "DisplayTeamData('Dallas Mavericks')">Dallas Mavericks</button> <br>
+                <button id = "NuggetsButton" onclick = "DisplayTeamData('Denver Nuggets')">Denver Nuggets</button><br>
+                <button id = "WarriorsButton" onclick = "DisplayTeamData('Golden State Warriors')" >Golden State Warriors</button><br>
+                <button id = "RocketsButton" onclick = "DisplayTeamData('Houston Rockets')">Houston Rockets</button><br>
+                <button id = "ClippersButton" onclick = "DisplayTeamData('Los Angeles Clippers')">Los Angeles Clippers</button><br>
+                <button id = "LakersButton" onclick = "DisplayTeamData('Los Angeles Lakers')">Los Angeles Lakers</button><br>
+                <button id = "GrizzliesButton" onclick = "DisplayTeamData('Memphis Grizzlies')">Memphis Grizzlies</button><br>
+                <button id = "TimberwolvesButton" onclick = "DisplayTeamData('Minnesota Timberwolves')">Minnesota Timberwolves</button><br>
+                <button id = "PelicansButton" onclick = "DisplayTeamData('New Orleans Pelicans')">New Orleans Pelicans</button><br>
+                <button id = "OKCButton" onclick = "DisplayTeamData('Oklahoma City Thunder')">Oklahoma City Thunder</button><br>
+                <button id = "SunsButton" onclick = "DisplayTeamData('Phoenix Suns')">Phoenix Suns</button><br>
+                <button id = "TrailblazersButton" onclick = "DisplayTeamData('Portland Trail Blazers')">Portland Trail Blazers</button><br>
+                <button id = "KingsButton" onclick = "DisplayTeamData('Sacramento Kings')">Sacramento Kings</button><br>
+                <button id = "SpursButton" onclick = "DisplayTeamData('San Antonio Spurs')">San Antonio Spurs</button><br>
+                <button id = "JazzButton" onclick = "DisplayTeamData('Utah Jazz')">Utah Jazz</button><br>
+                
+            </div>
+            </div>
+            
+            <button id = DisplayTeamButton onclick = "ShowECTeamButtonDisplay('ECTeams')">Eastern Conference</button>
+            <br>
+            <div class = "TeamDisplay">
+            <div id = "ECTeams">
+                <button id = "TeamButton" onclick = "DisplayTeamData('Boston Celtics')">Boston Celtics</button> <br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('Brooklyn Nets')">Brooklyn Nets</button><br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('Philadelphia 76ers')">Philadelphia 76ers</button><br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('New York Knicks')">New York Knicks</button><br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('Toronto Raptors')">Toronto Raptors</button><br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('Chicago Bulls')">Chicago Bulls</button><br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('Indiana Pacers')">Indiana Pacers</button><br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('Cleveland Cavaliers')">Cleveland Cavaliers</button><br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('Detroit Pistons')">Detroit Pistons</button><br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('Milwaukee Bucks')">Milwaukee Bucks</button><br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('Charlotte Hornets')">Charlotte Hornets</button><br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('Washington Wizards')">Washington Wizards</button><br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('Orlando Magic')">Orlando Magic</button><br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('Atlanta Hawks')">Atlanta Hawks</button><br>
+                <button id = "TeamButton" onclick = "DisplayTeamData('Miami Heat')">Miami Heat</button><br>
+                
+            </div>
+            <p id = "TeamData"></p>
+            </div>
+            <div>
+                <button id = "redirectStatCompButton" onclick = "ViewStatComparisonRedirect()">Compare Teams</button><br>
+            </div>
+            
+        </div>
+         
+    </body>
+</html>
